@@ -1,0 +1,4 @@
+-- Demo accounts are intentionally not included. Register a user in the UI first.
+-- Add sample tickets after registration by replacing REQUESTER_ID with your user id:
+-- INSERT INTO tickets (title, description, category, priority, status, requester_id)
+-- VALUES ('Laptop cannot connect to Wi-Fi', 'Connection drops after login.', 'Network', 'High', 'Open', REQUESTER_ID);
